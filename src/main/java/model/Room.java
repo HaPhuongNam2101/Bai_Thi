@@ -15,7 +15,7 @@ public class Room {
     public Room() {
     }
 
-    // Constructor có tham số
+
     public Room(int id, String roomCode, String tenantName, String phoneNumber, String startDate, int paymentTypeId, String note) {
         this.id = id;
         this.roomCode = roomCode;
@@ -33,7 +33,7 @@ public class Room {
     public Room(String roomCode, String tenantName, String phoneNumber, String startDate, int paymentTypeId, String note) {
     }
 
-    // Getter và Setter cho từng thuộc tính
+
     public int getId() {
         return id;
     }

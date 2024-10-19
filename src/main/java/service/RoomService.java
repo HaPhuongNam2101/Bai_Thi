@@ -26,10 +26,10 @@ public class RoomService implements IRoomService<Room> {
             statement.setInt(5, room.getPaymentTypeId());
             statement.setString(6, room.getNote());
             statement.executeUpdate();
-            return true; // Trả về true nếu thêm thành công
+            return true;
         } catch (SQLException e) {
             e.printStackTrace();
-            return false; // Trả về false nếu có lỗi
+            return false;
         }
     }
 
@@ -88,7 +88,7 @@ public class RoomService implements IRoomService<Room> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null; // Trả về null nếu không tìm thấy
+        return null;
     }
 
     @Override

@@ -4,7 +4,7 @@ public class PaymentMethod {
     private int id;
     private String typeName;
 
-    // Constructors, getters and setters
+
     public PaymentMethod(int id, String typeName) {
         this.id = id;
         this.typeName = typeName;
